@@ -1,0 +1,12 @@
+a = input("Adınız nedir?")
+print(type(a))
+b = input("Soyadınız nedir?")
+print(type(b))
+c = int(input("Yaşınız kaç?"))
+print(type(c))
+d = float(input("Boyunuz nedir?")) #float için noktalı değer giriniz, virgüllü değer girerseniz convert edemez.
+print(type(d))
+e = input("Nerelisiniz?")
+print(type(e))
+print(f"Adınız {a} . Soyadınız {b} . Yaşınız {c} . Boyunuz {d} Nerelisiniz {e}".format(a, b, c, d, e))
+print()
